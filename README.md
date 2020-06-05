@@ -1,2 +1,0 @@
-# blog
-alm blog code
