@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+Ranger 让你脱离鼠标找文件
+</title>
+
+    
+  <link href="https://tva1.sinaimg.cn/large/007S8ZIlly1gfijl6r4jej300w00w741.jpg" rel="shortcut icon" type="image/x-icon" />
+
+
+
+  
+  <meta name="author" content="alm" />
+  <meta name="description" content="为什么我需要Ranger？  “比如我，写博客需要先到博客目录下运行hugo命令来新建一个md文件，然后才能打开相关软件去写博客，这非常不方便”
+  “在终端运行命令时常需要频繁的切换目录，这对于我来说也是很难受的”
+ 在拥有Ranger前，我对命令行操作是很抵触的，我感觉有这么好的图形界面为什么要去使用丑陋的命令行，换个目录还需要不断的cd操作，cd到崩溃。可是直到前两天看到这个视频
+  看完第一遍，诶？还不错哦。
+看完第二遍，果断brew起来:beers:
+brew install ranger  命令仅适用于MAC，如果是WIN用户，需要先买一台MAC然后:dog:&amp;hellip;..
+ 装完Ranger，为了达到视频中up主的效果，又到up主的github上clone了Ranger的配置文件
+git clone https://github.com/theniceboy/.config/tree/master/ranger ~/.config/ranger 到此，我就也能实现快捷跳转了
+ 简单的跳转
+   创建文件夹，再创建文件，最后删除，从未如此顺滑
+  当然这些只是一些入门级操作，Ranger提供的自定义快捷键使得它能够和vim一样实现许多不可思议的操作，我根据盼欲的博客（这是我见过的对Ranger配置总结最好的一个）魔改了自己的配置，现已放在github上。
+ https://github.com/appleloveme/ranger 将这个克隆到自己的~/.config/ranger目录下就ok了
+ 下面的表格是我自己设置的最常用的快捷键映射，对于一些其他特殊的需求可以根据刚才分享的博客来定制
+我可以利用Ranger完成什么操作？    功能 快捷键     彻底删除文件 dD   复制文件 yy   粘贴文件 pp   重命名 a   回到桌面 gD（Go file Desktop）   打开我的博客文章目录 gfb（Go file blog）   跳转到Ranger的配置目录 gfr（Go file ranger）   打开我的vim配置目录 gfn（Go file nvim）   跳转当前目录的第一个文件 gg   跳转当前目录的最后一个文件 G   显示隐藏文件夹 zh   向上或向下移动n个文件 【数字】&#43; 上下方向键   选中文件 空格键   反选 v    ok，我觉得这些快捷键已经可以满足日常生活了，操作速度应该是要比鼠标快的，当然要是配上iTerm2的话，那简直是飞一般的速度，我把我的iTerm2配置成连按两次commend键就可以召唤出终端" />
+
+
+
+<meta name="generator" content="Hugo 0.71.1" />
+
+<link rel="canonical" href="https://appleloveme.github.io/posts/ranger-%E8%AE%A9%E4%BD%A0%E8%84%B1%E7%A6%BB%E9%BC%A0%E6%A0%87%E6%89%BE%E6%96%87%E4%BB%B6/" />
+
+
+<meta property="og:title" content="Ranger 让你脱离鼠标找文件" />
+<meta property="og:description" content="为什么我需要Ranger？  “比如我，写博客需要先到博客目录下运行hugo命令来新建一个md文件，然后才能打开相关软件去写博客，这非常不方便”
+  “在终端运行命令时常需要频繁的切换目录，这对于我来说也是很难受的”
+ 在拥有Ranger前，我对命令行操作是很抵触的，我感觉有这么好的图形界面为什么要去使用丑陋的命令行，换个目录还需要不断的cd操作，cd到崩溃。可是直到前两天看到这个视频
+  看完第一遍，诶？还不错哦。
+看完第二遍，果断brew起来:beers:
+brew install ranger  命令仅适用于MAC，如果是WIN用户，需要先买一台MAC然后:dog:&hellip;..
+ 装完Ranger，为了达到视频中up主的效果，又到up主的github上clone了Ranger的配置文件
+git clone https://github.com/theniceboy/.config/tree/master/ranger ~/.config/ranger 到此，我就也能实现快捷跳转了
+ 简单的跳转
+   创建文件夹，再创建文件，最后删除，从未如此顺滑
+  当然这些只是一些入门级操作，Ranger提供的自定义快捷键使得它能够和vim一样实现许多不可思议的操作，我根据盼欲的博客（这是我见过的对Ranger配置总结最好的一个）魔改了自己的配置，现已放在github上。
+ https://github.com/appleloveme/ranger 将这个克隆到自己的~/.config/ranger目录下就ok了
+ 下面的表格是我自己设置的最常用的快捷键映射，对于一些其他特殊的需求可以根据刚才分享的博客来定制
+我可以利用Ranger完成什么操作？    功能 快捷键     彻底删除文件 dD   复制文件 yy   粘贴文件 pp   重命名 a   回到桌面 gD（Go file Desktop）   打开我的博客文章目录 gfb（Go file blog）   跳转到Ranger的配置目录 gfr（Go file ranger）   打开我的vim配置目录 gfn（Go file nvim）   跳转当前目录的第一个文件 gg   跳转当前目录的最后一个文件 G   显示隐藏文件夹 zh   向上或向下移动n个文件 【数字】&#43; 上下方向键   选中文件 空格键   反选 v    ok，我觉得这些快捷键已经可以满足日常生活了，操作速度应该是要比鼠标快的，当然要是配上iTerm2的话，那简直是飞一般的速度，我把我的iTerm2配置成连按两次commend键就可以召唤出终端" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://appleloveme.github.io/posts/ranger-%E8%AE%A9%E4%BD%A0%E8%84%B1%E7%A6%BB%E9%BC%A0%E6%A0%87%E6%89%BE%E6%96%87%E4%BB%B6/" />
+<meta property="article:published_time" content="2020-06-06T17:04:05+08:00" />
+<meta property="article:modified_time" content="2020-06-06T17:04:05+08:00" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Ranger 让你脱离鼠标找文件"/>
+<meta name="twitter:description" content="为什么我需要Ranger？  “比如我，写博客需要先到博客目录下运行hugo命令来新建一个md文件，然后才能打开相关软件去写博客，这非常不方便”
+  “在终端运行命令时常需要频繁的切换目录，这对于我来说也是很难受的”
+ 在拥有Ranger前，我对命令行操作是很抵触的，我感觉有这么好的图形界面为什么要去使用丑陋的命令行，换个目录还需要不断的cd操作，cd到崩溃。可是直到前两天看到这个视频
+  看完第一遍，诶？还不错哦。
+看完第二遍，果断brew起来:beers:
+brew install ranger  命令仅适用于MAC，如果是WIN用户，需要先买一台MAC然后:dog:&hellip;..
+ 装完Ranger，为了达到视频中up主的效果，又到up主的github上clone了Ranger的配置文件
+git clone https://github.com/theniceboy/.config/tree/master/ranger ~/.config/ranger 到此，我就也能实现快捷跳转了
+ 简单的跳转
+   创建文件夹，再创建文件，最后删除，从未如此顺滑
+  当然这些只是一些入门级操作，Ranger提供的自定义快捷键使得它能够和vim一样实现许多不可思议的操作，我根据盼欲的博客（这是我见过的对Ranger配置总结最好的一个）魔改了自己的配置，现已放在github上。
+ https://github.com/appleloveme/ranger 将这个克隆到自己的~/.config/ranger目录下就ok了
+ 下面的表格是我自己设置的最常用的快捷键映射，对于一些其他特殊的需求可以根据刚才分享的博客来定制
+我可以利用Ranger完成什么操作？    功能 快捷键     彻底删除文件 dD   复制文件 yy   粘贴文件 pp   重命名 a   回到桌面 gD（Go file Desktop）   打开我的博客文章目录 gfb（Go file blog）   跳转到Ranger的配置目录 gfr（Go file ranger）   打开我的vim配置目录 gfn（Go file nvim）   跳转当前目录的第一个文件 gg   跳转当前目录的最后一个文件 G   显示隐藏文件夹 zh   向上或向下移动n个文件 【数字】&#43; 上下方向键   选中文件 空格键   反选 v    ok，我觉得这些快捷键已经可以满足日常生活了，操作速度应该是要比鼠标快的，当然要是配上iTerm2的话，那简直是飞一般的速度，我把我的iTerm2配置成连按两次commend键就可以召唤出终端"/>
+
+
+<link rel="stylesheet" href="/css/github-markdown.css" />
+<link rel="stylesheet" href="/css/semantic.min.css" />
+<link rel="stylesheet" href="/css/site.css" />
+
+
+<style>
+  a {
+    color: seagreen !important;
+  }
+</style>
+
+
+
+<style>
+  .inverted a {
+     color: darkseagreen !important;
+  }
+</style>
+
+
+  </head>
+
+  
+  <body style="background-image: url(https://tva1.sinaimg.cn/large/007S8ZIlly1gfh8j80hrkj30zk0k0wez.jpg);">
+  
+    <div class="flip-container">
+      <div class="flipper">
+        <section class="front">
+          
+<nav class="ui secondary inverted menu dream-menu">
+
+  <div class="item">
+    <i class="large link bullseye icon dream-flip-toggle" title="Flip it!"></i>
+  </div>
+  <div class="item">
+    <i class="large link home icon" title="Home" onclick="window.location.href = 'https:\/\/appleloveme.github.io\/'"></i>
+  </div>
+  <div class="item">
+    <i class="large link icon theme-switch" onclick="themeSwitch()"></i>
+  </div>
+</nav>
+
+          
+<div class="ui centered relaxed grid dream-grid">
+  <div class="sixteen wide mobile sixteen wide tablet twelve wide computer column markdown-body dream-single">
+
+    <section class="ui top attached segment" id="dream-save-post-as-img">
+      <header style="margin-top: 0 !important;">
+        <h2 class="ui header">
+          Ranger 让你脱离鼠标找文件
+          <div class="sub header">@ alm · Saturday, Jun 6, 2020 · 1 minute read · Update at Jun 6, 2020</div>
+        </h2>
+      </header>
+      <article style="margin-top: 2rem;"><div align="center">
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=31356283&auto=1&height=66"></iframe>
+</div>
+<h2 id="为什么我需要ranger">为什么我需要Ranger？</h2>
+<blockquote>
+<p>“比如我，写博客需要先到博客目录下运行hugo命令来新建一个md文件，然后才能打开相关软件去写博客，这非常不方便”</p>
+</blockquote>
+<blockquote>
+<p>“在终端运行命令时常需要频繁的切换目录，这对于我来说也是很难受的”</p>
+</blockquote>
+<p>在拥有Ranger前，我对命令行操作是很抵触的，我感觉有这么好的图形界面为什么要去使用丑陋的命令行，换个目录还需要不断的cd操作，cd到崩溃。可是直到前两天看到这个视频</p>
+<div align="center">
+<iframe width="700" height="600" src="//player.bilibili.com/player.html?aid=64990176&bvid=BV1b4411R7ck&cid=112804027&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+<p>看完第一遍，诶？还不错哦。</p>
+<p>看完第二遍，果断brew起来🍻</p>
+<pre><code>brew install ranger
+</code></pre><blockquote>
+<p>命令仅适用于MAC，如果是WIN用户，需要先买一台MAC然后🐶&hellip;..</p>
+</blockquote>
+<p>装完Ranger，为了达到视频中up主的效果，又到up主的github上clone了Ranger的配置文件</p>
+<pre><code>git clone https://github.com/theniceboy/.config/tree/master/ranger ~/.config/ranger
+</code></pre><p>到此，我就也能实现快捷跳转了</p>
+<blockquote>
+<p>简单的跳转</p>
+</blockquote>
+<div align="center">
+<img src="https://media.giphy.com/media/m9uUDUB0cWDRyhyPq5/source.gif" width="600" height="400" alt="跳转"/>
+</div>
+<blockquote>
+<p>创建文件夹，再创建文件，最后删除，从未如此顺滑</p>
+</blockquote>
+<div align="center">
+<img src="https://media.giphy.com/media/UtuHqIFKl4PQoukBer/source.gif" width="600" height="400" alt="文件操作"/>
+</div>
+<p>当然这些只是一些入门级操作，Ranger提供的自定义快捷键使得它能够和vim一样实现许多不可思议的操作，我根据<a href="http://www.huangpan.net/posts/ji-ke/2019-08-21-ranger.html">盼欲</a>的博客（这是我见过的对Ranger配置总结最好的一个）魔改了自己的配置，现已放在github上。</p>
+<blockquote>
+<p><a href="https://github.com/appleloveme/ranger">https://github.com/appleloveme/ranger</a> 将这个克隆到自己的~/.config/ranger目录下就ok了</p>
+</blockquote>
+<p>下面的表格是我自己设置的最常用的快捷键映射，对于一些其他特殊的需求可以根据刚才分享的博客来定制</p>
+<h2 id="我可以利用ranger完成什么操作">我可以利用Ranger完成什么操作？</h2>
+<table>
+<thead>
+<tr>
+<th>功能</th>
+<th>快捷键</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>彻底删除文件</td>
+<td>dD</td>
+</tr>
+<tr>
+<td>复制文件</td>
+<td>yy</td>
+</tr>
+<tr>
+<td>粘贴文件</td>
+<td>pp</td>
+</tr>
+<tr>
+<td>重命名</td>
+<td>a</td>
+</tr>
+<tr>
+<td>回到桌面</td>
+<td>gD（Go file Desktop）</td>
+</tr>
+<tr>
+<td>打开我的博客文章目录</td>
+<td>gfb（Go file blog）</td>
+</tr>
+<tr>
+<td>跳转到Ranger的配置目录</td>
+<td>gfr（Go file ranger）</td>
+</tr>
+<tr>
+<td>打开我的vim配置目录</td>
+<td>gfn（Go file nvim）</td>
+</tr>
+<tr>
+<td>跳转当前目录的第一个文件</td>
+<td>gg</td>
+</tr>
+<tr>
+<td>跳转当前目录的最后一个文件</td>
+<td>G</td>
+</tr>
+<tr>
+<td>显示隐藏文件夹</td>
+<td>zh</td>
+</tr>
+<tr>
+<td>向上或向下移动n个文件</td>
+<td>【数字】+ 上下方向键</td>
+</tr>
+<tr>
+<td>选中文件</td>
+<td>空格键</td>
+</tr>
+<tr>
+<td>反选</td>
+<td>v</td>
+</tr>
+</tbody>
+</table>
+<p>ok，我觉得这些快捷键已经可以满足日常生活了，操作速度应该是要比鼠标快的，当然要是配上iTerm2的话，那简直是飞一般的速度，我把我的iTerm2配置成连按两次commend键就可以召唤出终端</p>
+<div align="center">
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfiqsh19l8j31ff0u0wsb.jpg" width="600" height="400" alt="设置iTerm2"/>
+</div>
+<p>这样就可以实现在终端进行一顿操作之后，再按两次commend键回到原来的工作空间，整个过程无痕衔接，太舒服了，另外还可以配置终端快捷键</p>
+<pre><code>alias r=ranger
+</code></pre><p>设置r快速启动Ranger，到这里，就可以尽情享受Ranger带来的便利了。</p>
+</article>
+    </section>
+
+    <footer class="ui attached segment dream-tags">
+      
+        
+          <a class="ui label" href="/tags/ranger" title="ranger">ranger</a>
+        
+          <a class="ui label" href="/tags/iterm2" title="iterm2">iterm2</a>
+        
+          <a class="ui label" href="/tags/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86" title="文件管理">文件管理</a>
+        
+      
+      <div
+        class="ui label"
+        style="float: right; cursor: pointer;"
+        onclick="savePostAsImg()">
+        <i class="save icon"></i>Save as image
+      </div>
+    </footer>
+
+    
+
+
+
+  <footer class="ui bottom attached stacked segment post-disqus-area" data-html2canvas-ignore="true">
+    <div class="post-comment">
+         
+<head>
+    <style>
+
+    </style>
+</head>
+
+
+
+  <div id="vcomments"></div>
+  
+
+  <script src='https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/Valine1.3.10.min.js'></script>
+
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+  
+
+
+
+
+  <script type="text/javascript">
+    new Valine({
+        el: '#vcomments' ,
+        appId: 'BygvxFkkutypYkx96cxKakAH-gzGzoHsz',
+        appKey: 'amDtpgmBqUeq7AjlFPQfrtYL',
+        notify: 'false',
+        verify: 'false',
+        avatar:'robohash',
+        placeholder: '分享你的想法,拥抱更大的世界(Markdown Support!)',
+        visitor: 'true'
+    });
+ <!--点击邮件中的链接跳转至相应评论-->
+  if(window.location.hash){
+      var checkExist = setInterval(function() {
+         if ($(window.location.hash).length) {
+            $('html, body').animate({scrollTop: $(window.location.hash).offset().top-90}, 1000);
+            clearInterval(checkExist);
+         }
+      }, 100);
+   }
+
+  </script>
+    </div>
+      </footer>
+
+
+
+
+    
+
+  </div>
+  <div class="sixteen wide mobile sixteen wide tablet four wide computer column">
+    <article class="dream-header">
+  <section class="ui top attached center aligned segment">
+    <div class="ui small circular image">
+      
+        <img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfgleiguq0j30kv0kv3z7.jpg">
+      
+    </div>
+
+    <h1 class="ui medium header">alm&#39;s blog<div class="sub header" style="margin-top: 0.5rem;">年轻人的焦虑，在于把欲望当做志气</div>
+    </h1>
+
+    <div class="ui horizontal list">
+      
+      <a class="item" href="/posts">
+        <i class="archive icon" title="Archives"></i>
+      </a>
+      
+      <a class="item" href="/tags">
+        <i class="tags icon" title="All Tags"></i>
+      </a>
+      <a class="item" href="/categories">
+        <i class="th list icon" title="All Categories"></i>
+      </a>
+    </div>
+  </section>
+
+  
+  <section class="ui attached center aligned segment dream-tags">
+    
+      <a class="ui label" href="/tags/iterm2" title="iterm2">iterm2</a>
+    
+      <a class="ui label" href="/tags/ranger" title="ranger">ranger</a>
+    
+      <a class="ui label" href="/tags/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86" title="文件管理">文件管理</a>
+    
+  </section>
+  
+
+  
+  <section class="ui attached segment dream-categories">
+    <div class="ui accordion">
+      
+        <div class="title">
+          <i class="dropdown icon"></i>
+          <a href="/categories/drop-your-mouse" class="item">drop-your-mouse</a>
+        </div>
+        <div class="content">
+          <div class="ui list">
+          
+            <div class="item">
+              <div class="content">
+                <a href="https://appleloveme.github.io/posts/ranger-%E8%AE%A9%E4%BD%A0%E8%84%B1%E7%A6%BB%E9%BC%A0%E6%A0%87%E6%89%BE%E6%96%87%E4%BB%B6/" class="item">Ranger 让你脱离鼠标找文件</a>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      
+    </div>
+  </section>
+  
+
+  <section class="ui attached segment header-socials">
+    <nav class="ui secondary menu dream-menu dream-socials">
+  
+    <div class="item">
+      <a href="mailto:dengyifan98@gmail.com">
+        <i class=" mail icon" title="email"></i>
+      </a>
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <div class="item">
+      <a href="https://github.com/appleloveme" target="_blank">
+        <i class=" github icon" title="github"></i>
+      </a>
+    </div>
+  
+
+  
+
+  
+</nav>
+
+  </section>
+
+  <section class="ui bottom attached center aligned segment">
+    
+      <p>© 2020 Wecome to ALM Blog</p>
+    
+
+    <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
+  </section>
+</article>
+
+  </div>
+</div>
+
+        </section>
+        <section class="back">
+          
+<nav class="ui secondary inverted menu dream-menu">
+
+  <div class="item">
+    <i class="large link bullseye icon dream-flip-toggle" title="Flip it!"></i>
+  </div>
+  <div class="item">
+    <i class="large link home icon" title="Home" onclick="window.location.href = 'https:\/\/appleloveme.github.io\/'"></i>
+  </div>
+  <div class="item">
+    <i class="large link icon theme-switch" onclick="themeSwitch()"></i>
+  </div>
+</nav>
+
+          <div class="ui centered relaxed grid dream-grid dream-back">
+  
+    <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+      <article>
+        <div class="ui top attached segment">
+          <h3 class="ui header">关于我</h3>
+        </div>
+        <div class="ui attached segment markdown-body">
+          <p>职业：一名准NLPer</p>
+<p>内容：</p>
+<ul>
+<li>学习vim（<strong>Drop Your Mouse</strong>）</li>
+<li>提高英语水平(<strong>To Be Amphibious</strong>)</li>
+<li>提升搬砖体验（<strong>Strengthen Your Mac</strong>）</li>
+<li>研究NLP（<strong>Nlp Studying</strong>）</li>
+<li>生存笔记（<strong>Survival Notes</strong>）</li>
+<li>Others</li>
+</ul>
+<blockquote>
+<p>非常感谢<a href="https://g1eny0ung.site/">g1eny0ung</a>的模版</p>
+</blockquote>
+
+        </div>
+      </article>
+    </section>
+  
+
+  <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article>
+      <div class="ui top attached segment">
+        <h3 class="ui header">Social Links</h3>
+      </div>
+      <div class="ui attached segment">
+        <nav class="ui secondary menu dream-menu dream-socials">
+  
+    <div class="item">
+      <a href="mailto:dengyifan98@gmail.com">
+        <i class="large mail icon" title="email"></i>
+      </a>
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <div class="item">
+      <a href="https://github.com/appleloveme" target="_blank">
+        <i class="large github icon" title="github"></i>
+      </a>
+    </div>
+  
+
+  
+
+  
+</nav>
+
+      </div>
+    </article>
+  </section>
+
+  <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    
+  </section>
+
+  
+  
+</div>
+
+        </section>
+      </div>
+    </div>
+
+    <script src="/js/jquery.min.js"></script>
+<script src="/js/semantic.min.js"></script>
+<script src="/js/imagesloaded.pkgd.min.js"></script>
+<script src="/js/masonry.pkgd.min.js"></script>
+<script src="/js/nav.js"></script>
+<script src="/js/header.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+
+
+  </body>
+</html>
