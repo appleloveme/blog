@@ -31,7 +31,7 @@ publishDir = "../public"
 
   siteStartYear = 2020
 
-  favicon = "/favicon.ico"
+  favicon = "https://tva1.sinaimg.cn/large/007S8ZIlly1gfijl6r4jej300w00w741.jpg"
 
   # dark mode
   darkLinkColor = "darkseagreen"
