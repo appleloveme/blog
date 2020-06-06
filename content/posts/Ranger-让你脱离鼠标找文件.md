@@ -15,22 +15,22 @@ draft: false
 </div>
 
 
-## 为什么我需要Ranger？
+## 为什么我需要[Ranger](https://ranger.github.io/)？
 
 
-> “比如我，写博客需要先到博客目录下运行hugo命令来新建一个md文件，然后才能打开相关软件去写博客，这非常不方便”
+> “比如我，写博客需要先到博客目录下运行hugo命令来新建一个markdown文件，然后才能打开相关软件去写博客，这非常不方便”
 
-> “在终端运行命令时常需要频繁的切换目录，这对于我来说也是很难受的”
+>> “在终端运行命令时常需要频繁的切换目录，这对于我来说也是很难受的”
 
-在拥有Ranger前，我对命令行操作是很抵触的，我感觉有这么好的图形界面为什么要去使用丑陋的命令行，换个目录还需要不断的cd操作，cd到崩溃。可是直到前两天看到这个视频
+在拥有Ranger前，其实我对命令行操作还是很抵触的，不理解为什么有这么好的图形界面还要去使用丑陋的命令行，简单的换个目录都需要不断的cd操作，cd到崩溃。可是直到前两天看到这个视频.....
 
 <div align="center">
 <iframe width="700" height="600" src="//player.bilibili.com/player.html?aid=64990176&bvid=BV1b4411R7ck&cid=112804027&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </div>
 
-看完第一遍，诶？还不错哦。
+看完第一遍，诶？:eyes:好像还不错哦。
 
-看完第二遍，果断brew起来:beers:
+看完第二遍，果断[brew](https://brew.sh/)起来:beers:
 
 ```
 brew install ranger
@@ -61,7 +61,7 @@ git clone https://github.com/theniceboy/.config/tree/master/ranger ~/.config/ran
 
 当然这些只是一些入门级操作，Ranger提供的自定义快捷键使得它能够和vim一样实现许多不可思议的操作，我根据[盼欲](http://www.huangpan.net/posts/ji-ke/2019-08-21-ranger.html)的博客（这是我见过的对Ranger配置总结最好的一个）魔改了自己的配置，现已放在github上。
 
-> https://github.com/appleloveme/ranger 将这个克隆到自己的~/.config/ranger目录下就ok了
+> https://github.com/appleloveme/ranger 将这个克隆到自己的```~/.config/ranger```目录下就ok了
 
 下面的表格是我自己设置的最常用的快捷键映射，对于一些其他特殊的需求可以根据刚才分享的博客来定制
 
@@ -84,19 +84,30 @@ git clone https://github.com/theniceboy/.config/tree/master/ranger ~/.config/ran
 |          选中文件          | 空格键                     |
 |            反选            | v                          |
 
-ok，我觉得这些快捷键已经可以满足日常生活了，操作速度应该是要比鼠标快的，当然要是配上iTerm2的话，那简直是飞一般的速度，我把我的iTerm2配置成连按两次commend键就可以召唤出终端
+ok，我觉得这些快捷键已经可以满足日常生活了，操作速度应该是要比鼠标快的，当然要是配上[iTerm2](https://www.iterm2.com/)的话，那简直是飞一般的速度，你可以将iTerm2配置成连按两次```commend```键召唤出终端
 
 <div align="center">
 <img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfiqsh19l8j31ff0u0wsb.jpg" width="600" height="400" alt="设置iTerm2"/>
 </div>
 
-这样就可以实现在终端进行一顿操作之后，再按两次commend键回到原来的工作空间，整个过程无痕衔接，太舒服了，另外还可以配置终端快捷键
+这样就可以实现在终端进行一顿操作之后，再按两次```commend```键回到原来的工作空间，整个过程无痕衔接，太舒服了
+
+## 还可以更快吗？
+
+可以配置终端快捷键
 
 ```
 alias r=ranger
 ```
 
-设置r快速启动Ranger，到这里，就可以尽情享受Ranger带来的便利了。
+设置```r```快速启动Ranger，到这里，就可以尽情享受Ranger带来的便利了。
+
+
+好了，这一期的分享到这里就结束了，如果你有更快的操作欢迎留言讨论，互相促进:blush:
+
+
+
+
 
 
 
