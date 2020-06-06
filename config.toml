@@ -3,7 +3,11 @@ baseURL = "https://appleloveme.github.io/"
 languageCode = "zh-cmn-Hans"
 title = "Wecome to ALM Blog"
 theme = "dream"
-enableRobotsTXT = true
+[markup]
+  [markup.goldmark]
+     [markup.goldmark.renderer]
+        unsafe = true
+nableRobotsTXT = true
 hasCJKLanguage = true
 publishDir = "../public"
 [params]

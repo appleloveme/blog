@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iterm2 on Wecome to ALM Blog</title>
+    <link>https://appleloveme.github.io/tags/iterm2/</link>
+    <description>Recent content in iterm2 on Wecome to ALM Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cmn-Hans</language>
+    <lastBuildDate>Fri, 05 Jun 2020 07:58:33 +0800</lastBuildDate>
+    
+	<atom:link href="https://appleloveme.github.io/tags/iterm2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Drop Your Mouse之Ranger</title>
+      <link>https://appleloveme.github.io/posts/articletitle/</link>
+      <pubDate>Fri, 05 Jun 2020 07:58:33 +0800</pubDate>
+      
+      <guid>https://appleloveme.github.io/posts/articletitle/</guid>
+      <description>   那时我刚改完毕业论文，然后就去逛了学习网站——b站，无意中看到下面这么一个视频 </description>
+    </item>
+    
+  </channel>
+</rss>
