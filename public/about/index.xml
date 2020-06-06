@@ -37,5 +37,15 @@ Ranger配置  https://github.com/appleloveme/ranger
  </description>
     </item>
     
+    <item>
+      <title>公告</title>
+      <link>https://appleloveme.github.io/about/readme/</link>
+      <pubDate>Mon, 01 Jun 2020 20:29:46 +0800</pubDate>
+      
+      <guid>https://appleloveme.github.io/about/readme/</guid>
+      <description>目前本站在移动端会出现格式错乱的情况
+可以在手机浏览器中设置“访问电脑版”</description>
+    </item>
+    
   </channel>
 </rss>

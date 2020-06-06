@@ -16,7 +16,7 @@ draft: false
 
 
 <div align="center">
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=31356283&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=31356283&auto=0&height=66"></iframe>
 </div>
 
 
@@ -51,6 +51,8 @@ git clone https://github.com/theniceboy/.config/tree/master/ranger ~/.config/ran
 
 到此，我就也能实现快捷跳转了
 
+> gif图的加载不太稳定，可能需要多刷新几次
+
 > 简单的跳转
 
 <div align="left">
@@ -64,7 +66,7 @@ git clone https://github.com/theniceboy/.config/tree/master/ranger ~/.config/ran
 <img src="https://media.giphy.com/media/UtuHqIFKl4PQoukBer/source.gif" width="600" height="400" alt="文件操作"/>
 </div>
 
-> 先暂时忽略我这吓人的背景，我还没找到合适的高清背景图:sob:
+> 先暂时忽略这吓人的背景，因为我还没找到合适的高清背景图:sob:
 
 当然这些只是一些入门级操作，Ranger提供的自定义快捷键使得它能够和vim一样实现许多不可思议的操作，我根据[盼欲](http://www.huangpan.net/posts/ji-ke/2019-08-21-ranger.html)的博客（这是我见过的对Ranger配置总结最好的一个）魔改了自己的配置，现已放在github上。
 
