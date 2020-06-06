@@ -15,6 +15,7 @@ hasCJKLanguage = true
 disablePathToLower = true
 # Hugo 默认会把Taxonomy（categories,tags,series）名称转为小写
 preserveTaxonomyNames = true
+page_view_conter = true
 publishDir = "../public"
 [params]
   # background = "black"

@@ -10,7 +10,7 @@
       <header style="margin-top: 0 !important;">
         <h2 class="ui header">
           {{ .Title }}
-          <div class="sub header">@ {{ if isset .Params "author" }}{{ .Params.author }}{{ else }}{{ .Site.Params.author }}{{ end }} · {{ .Date.Format "Monday, Jan 2, 2006" }} · {{ .ReadingTime }}{{ i18n "minuteRead" }} · {{ i18n "updateAt" }} {{ dateFormat "Jan 2, 2006" .Lastmod }}</div>
+          <div class="sub header">@ {{ if isset .Params "author" }}{{ .Params.author }}{{ else }}{{ .Site.Params.author }}{{ end }}   ·   Posted at {{ .Date.Format "Monday, Jan 2, 2006" }}      ·   {{ i18n "updateAt" }} {{ dateFormat "Jan 2, 2006" .Lastmod }}  · 约需{{ .ReadingTime }}{{ .ReadingTime  }}分钟 </div>
         </h2>
       </header>
       <article style="margin-top: 2rem;">{{ .Content | emojify }}</article>

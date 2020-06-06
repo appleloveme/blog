@@ -6,19 +6,32 @@
     <description>Recent content in Abouts on Wecome to ALM Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cmn-Hans</language>
-    <lastBuildDate>Fri, 05 Jun 2020 07:51:07 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2020 20:00:57 +0800</lastBuildDate>
     
 	<atom:link href="https://appleloveme.github.io/about/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>关于我</title>
+      <title>我的github</title>
+      <link>https://appleloveme.github.io/about/porjects/</link>
+      <pubDate>Sat, 06 Jun 2020 20:00:57 +0800</pubDate>
+      
+      <guid>https://appleloveme.github.io/about/porjects/</guid>
+      <description>目前github上分享的一些配置
+Ranger配置  https://github.com/appleloveme/ranger
+ Nvim配置  https://github.com/appleloveme/nvim
+ 我的博客主题  https://github.com/appleloveme/blog
+ 其他的正在火速赶来&amp;hellip;&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>关于我和alm</title>
       <link>https://appleloveme.github.io/about/%E5%85%B3%E4%BA%8E%E6%88%91/</link>
       <pubDate>Fri, 05 Jun 2020 07:51:07 +0800</pubDate>
       
       <guid>https://appleloveme.github.io/about/%E5%85%B3%E4%BA%8E%E6%88%91/</guid>
       <description>职业：一名准NLPer
-内容：
+博客内容：
  学习vim（Drop Your Mouse） 提高英语水平(To Be Amphibious) 提升搬砖体验（Strengthen Your Mac）:muscle: 研究NLP（Nlp Studying） 生存笔记（Survival Notes）:ledger: Others   主要分享自己的学习感受和得到评论区大佬的指点:yum:
   非常感谢g1eny0ung的模版
  </description>

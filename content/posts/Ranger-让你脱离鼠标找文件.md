@@ -3,12 +3,17 @@ title: Ranger 让你脱离鼠标找文件
 date: 2020-06-06T17:04:05+08:00
 lastmod: 2020-06-06T17:04:05+08:00
 author: alm
-cover: /img/cover.jpg
+cover: https://tva1.sinaimg.cn/large/007S8ZIlly1gfitxqxh28j30rs0ku3zn.jpg
 categories: ["Drop your mouse"]
 tags: ["ranger", "iterm2","文件管理"]
 # showcase: true
 draft: false
 ---
+
+我是怎么被终端操作圈粉的
+
+<!--more-->
+
 
 <div align="center">
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=31356283&auto=1&height=66"></iframe>
@@ -48,16 +53,18 @@ git clone https://github.com/theniceboy/.config/tree/master/ranger ~/.config/ran
 
 > 简单的跳转
 
-<div align="center">
+<div align="left">
 <img src="https://media.giphy.com/media/m9uUDUB0cWDRyhyPq5/source.gif" width="600" height="400" alt="跳转"/>
 </div>
 
 
 > 创建文件夹，再创建文件，最后删除，从未如此顺滑
 
-<div align="center">
+<div align="left">
 <img src="https://media.giphy.com/media/UtuHqIFKl4PQoukBer/source.gif" width="600" height="400" alt="文件操作"/>
 </div>
+
+> 先暂时忽略我这吓人的背景，我还没找到合适的高清背景图:sob:
 
 当然这些只是一些入门级操作，Ranger提供的自定义快捷键使得它能够和vim一样实现许多不可思议的操作，我根据[盼欲](http://www.huangpan.net/posts/ji-ke/2019-08-21-ranger.html)的博客（这是我见过的对Ranger配置总结最好的一个）魔改了自己的配置，现已放在github上。
 
@@ -67,22 +74,24 @@ git clone https://github.com/theniceboy/.config/tree/master/ranger ~/.config/ran
 
 ## 我可以利用Ranger完成什么操作？
 
-|            功能            | 快捷键                     |
-|            ----            | ----                       |
-|        彻底删除文件        | dD                         |
-|          复制文件          | yy                         |
-|          粘贴文件          | pp                         |
-|           重命名           | a                          |
-|          回到桌面          | gD（Go file Desktop） |
-|    打开我的博客文章目录    | gfb（Go file blog）       |
-|   跳转到Ranger的配置目录   | gfr（Go file ranger）     |
-|    打开我的vim配置目录     | gfn（Go file nvim）       |
-|  跳转当前目录的第一个文件  | gg                         |
-| 跳转当前目录的最后一个文件 | G                          |
-|       显示隐藏文件夹       | zh                         |
-|   向上或向下移动n个文件    | 【数字】+ 上下方向键       |
-|          选中文件          | 空格键                     |
-|            反选            | v                          |
+|              功能              | 快捷键                |
+|              ----              | ----                  |
+|          彻底删除文件          | dD                    |
+|            复制文件            | yy                    |
+|            粘贴文件            | pp                    |
+|             重命名             | a                     |
+|            回到桌面            | gD（Go file Desktop） |
+|      打开我的博客文章目录      | gfb（Go file blog）   |
+|     跳转到Ranger的配置目录     | gfr（Go file ranger） |
+|      打开我的vim配置目录       | gfn（Go file nvim）   |
+|    跳转当前目录的第一个文件    | gg                    |
+|   跳转当前目录的最后一个文件   | G                     |
+|         显示隐藏文件夹         | zh                    |
+|     向上或向下移动n个文件      | 【数字】+ 上下方向键  |
+|            选中文件            | 空格键                |
+|              反选              | v                     |
+| 操作当前目录的父级目录向上移动 | [                     |
+| 操作当前目录的父级目录向下移动 | ]                     |
 
 ok，我觉得这些快捷键已经可以满足日常生活了，操作速度应该是要比鼠标快的，当然要是配上[iTerm2](https://www.iterm2.com/)的话，那简直是飞一般的速度，你可以将iTerm2配置成连按两次```commend```键召唤出终端
 

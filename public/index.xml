@@ -6,10 +6,23 @@
     <description>Recent content on Wecome to ALM Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cmn-Hans</language>
-    <lastBuildDate>Sat, 06 Jun 2020 17:04:05 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2020 20:00:57 +0800</lastBuildDate>
     
 	<atom:link href="https://appleloveme.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>我的github</title>
+      <link>https://appleloveme.github.io/about/porjects/</link>
+      <pubDate>Sat, 06 Jun 2020 20:00:57 +0800</pubDate>
+      
+      <guid>https://appleloveme.github.io/about/porjects/</guid>
+      <description>目前github上分享的一些配置
+Ranger配置  https://github.com/appleloveme/ranger
+ Nvim配置  https://github.com/appleloveme/nvim
+ 我的博客主题  https://github.com/appleloveme/blog
+ 其他的正在火速赶来&amp;hellip;&amp;hellip;</description>
+    </item>
     
     <item>
       <title>Ranger 让你脱离鼠标找文件</title>
@@ -17,30 +30,17 @@
       <pubDate>Sat, 06 Jun 2020 17:04:05 +0800</pubDate>
       
       <guid>https://appleloveme.github.io/posts/ranger-%E8%AE%A9%E4%BD%A0%E8%84%B1%E7%A6%BB%E9%BC%A0%E6%A0%87%E6%89%BE%E6%96%87%E4%BB%B6/</guid>
-      <description>为什么我需要Ranger？  “比如我，写博客需要先到博客目录下运行hugo命令来新建一个markdown文件，然后才能打开相关软件去写博客，这非常不方便”
-   “在终端运行命令时常需要频繁的切换目录，这对于我来说也是很难受的”
-  在拥有Ranger前，其实我对命令行操作还是很抵触的，不理解为什么有这么好的图形界面还要去使用丑陋的命令行，简单的换个目录都需要不断的cd操作，cd到崩溃。可是直到前两天看到这个视频&amp;hellip;..
-  看完第一遍，诶？:eyes:好像还不错哦。
-看完第二遍，果断brew起来:beers:
-brew install ranger  命令仅适用于MAC，如果是WIN用户，需要先买一台MAC然后:dog:&amp;hellip;..
- 装完Ranger，为了达到视频中up主的效果，又到up主的github上clone了Ranger的配置文件
-git clone https://github.com/theniceboy/.config/tree/master/ranger ~/.config/ranger 到此，我就也能实现快捷跳转了
- 简单的跳转
-   创建文件夹，再创建文件，最后删除，从未如此顺滑
-  当然这些只是一些入门级操作，Ranger提供的自定义快捷键使得它能够和vim一样实现许多不可思议的操作，我根据盼欲的博客（这是我见过的对Ranger配置总结最好的一个）魔改了自己的配置，现已放在github上。
- https://github.com/appleloveme/ranger 将这个克隆到自己的~/.config/ranger目录下就ok了
- 下面的表格是我自己设置的最常用的快捷键映射，对于一些其他特殊的需求可以根据刚才分享的博客来定制
-我可以利用Ranger完成什么操作？    功能 快捷键     彻底删除文件 dD   复制文件 yy   粘贴文件 pp   重命名 a   回到桌面 gD（Go file Desktop）   打开我的博客文章目录 gfb（Go file blog）   跳转到Ranger的配置目录 gfr（Go file ranger）   打开我的vim配置目录 gfn（Go file nvim）   跳转当前目录的第一个文件 gg   跳转当前目录的最后一个文件 G   显示隐藏文件夹 zh   向上或向下移动n个文件 【数字】+ 上下方向键   选中文件 空格键   反选 v    ok，我觉得这些快捷键已经可以满足日常生活了，操作速度应该是要比鼠标快的，当然要是配上iTerm2的话，那简直是飞一般的速度，你可以将iTerm2配置成连按两次commend键召唤出终端</description>
+      <description>&lt;p&gt;我是怎么被终端操作圈粉的&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>关于我</title>
+      <title>关于我和alm</title>
       <link>https://appleloveme.github.io/about/%E5%85%B3%E4%BA%8E%E6%88%91/</link>
       <pubDate>Fri, 05 Jun 2020 07:51:07 +0800</pubDate>
       
       <guid>https://appleloveme.github.io/about/%E5%85%B3%E4%BA%8E%E6%88%91/</guid>
       <description>职业：一名准NLPer
-内容：
+博客内容：
  学习vim（Drop Your Mouse） 提高英语水平(To Be Amphibious) 提升搬砖体验（Strengthen Your Mac）:muscle: 研究NLP（Nlp Studying） 生存笔记（Survival Notes）:ledger: Others   主要分享自己的学习感受和得到评论区大佬的指点:yum:
   非常感谢g1eny0ung的模版
  </description>
