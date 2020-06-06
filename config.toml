@@ -7,8 +7,14 @@ theme = "dream"
   [markup.goldmark]
      [markup.goldmark.renderer]
         unsafe = true
-nableRobotsTXT = true
+enableRobotsTXT = true
 hasCJKLanguage = true
+[Blackfriday]
+    hrefTargetBlank = true
+# Hugo 默认会把 url 中的大写字符转为小写
+disablePathToLower = true
+# Hugo 默认会把Taxonomy（categories,tags,series）名称转为小写
+preserveTaxonomyNames = true
 publishDir = "../public"
 [params]
   # background = "black"

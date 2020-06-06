@@ -6,7 +6,7 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
 # Build the project.
 hugo -D # if using a theme, replace with `hugo -t <YOURTHEME>`
-
+cp -rf public/* ../public
 printf "开始生成博客网站并上传github"
 printf ""
 # Go To Public folder
