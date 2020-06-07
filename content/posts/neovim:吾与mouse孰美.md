@@ -28,7 +28,7 @@ tags: ["nvim", "ranger", "iTerm2"]
 这里以写博客的场景为例，为了写一篇文章然后发布到自己的博客，我们通常需要打开终端，进入到博客目录，然后创建新的md文件，再使用markdown编辑器（例如typera、vscode等）书写文章，书写完毕需要打开终端生成网站并上传到github。整个过程伴随着频繁的工具切换，我们的双手需要不断的在键盘和鼠标之间来回切换，这对于追求工作和书写体验的我来说是无法忍受的，所以以前的我不会创建自己的博客，就因为这“三分钟的书写，十分钟的后勤”，直到前两天我看到了一个[视频](https://www.bilibili.com/video/BV164411P7tw?t=378)（没错，还是TheCW大神的）
 
 <div align="center">
-<iframe src="//player.bilibili.com/player.html?aid=55498503&bvid=BV164411P7tw&cid=97032762&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe width="100%" src="//player.bilibili.com/player.html?aid=55498503&bvid=BV164411P7tw&cid=97032762&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </div>
 
 就是这个视频打开了我在终端搬砖的新世界，一边看我一边打开了自己的终端，输入
@@ -53,10 +53,10 @@ git clone https://github.com/appleloveme/nvim ~/.config/nvim
 
 > 一些必要的依赖请移步百度，一般会需要python3、python2、pip3等等，这些依赖的安装都很简单
 
-安装成功后就可以愉快的使用nvim了，这里我做了一个视频来展示我是如何使用nvim来写博客的
+安装成功后就可以愉快的使用nvim了，这里我做了一个[视频](https://www.bilibili.com/video/BV1wa4y1Y78m)来展示我是如何使用nvim来写博客的
 
 <div align="center">
-<iframe src="//player.bilibili.com/player.html?aid=668496515&bvid=BV1wa4y1Y78m&cid=199492972&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe width="100%" src="//player.bilibili.com/player.html?aid=668496515&bvid=BV1wa4y1Y78m&cid=199492972&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </div>
 
 > 第一次做视频没有加上背景音乐，建议各位带上自己的网易云音乐进行观看；开头有1：10的黑屏，我也不知道咋出来的:joy:

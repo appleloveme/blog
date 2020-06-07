@@ -30,7 +30,7 @@ draft: false
 在拥有Ranger前，其实我对命令行操作还是很抵触的，不理解为什么有这么好的图形界面还要去使用丑陋的命令行，简单的换个目录都需要不断的cd操作，cd到崩溃。可是直到前两天看到这个[视频](https://www.bilibili.com/video/BV1b4411R7ck).....
 
 <div align="center">
-<iframe  src="//player.bilibili.com/player.html?aid=64990176&bvid=BV1b4411R7ck&cid=112804027&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe width="100%" src="//player.bilibili.com/player.html?aid=64990176&bvid=BV1b4411R7ck&cid=112804027&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </div>
 
 看完第一遍，诶？:eyes:好像还不错哦。
