@@ -25,9 +25,9 @@ draft: false
 
 > “比如我，写博客需要先到博客目录下运行hugo命令来新建一个markdown文件，然后才能打开相关软件去写博客，这非常不方便”
 
->> “在终端运行命令时常需要频繁的切换目录，这对于我来说也是很难受的”
+> “在终端运行命令时常需要频繁的切换目录，这对于我来说也是很难受的”
 
-在拥有Ranger前，其实我对命令行操作还是很抵触的，不理解为什么有这么好的图形界面还要去使用丑陋的命令行，简单的换个目录都需要不断的cd操作，cd到崩溃。可是直到前两天看到这个视频.....
+在拥有Ranger前，其实我对命令行操作还是很抵触的，不理解为什么有这么好的图形界面还要去使用丑陋的命令行，简单的换个目录都需要不断的cd操作，cd到崩溃。可是直到前两天看到这个[视频](https://www.bilibili.com/video/BV1b4411R7ck).....
 
 <div align="center">
 <iframe  src="//player.bilibili.com/player.html?aid=64990176&bvid=BV1b4411R7ck&cid=112804027&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
@@ -51,22 +51,7 @@ git clone https://github.com/theniceboy/.config/tree/master/ranger ~/.config/ran
 
 到此，我就也能实现快捷跳转了
 
-> gif图的加载不太稳定，可能需要多刷新几次
 
-> 简单的跳转
-
-<div align="left">
-<img src="https://media.giphy.com/media/m9uUDUB0cWDRyhyPq5/source.gif" width="600" height="400" alt="跳转"/>
-</div>
-
-
-> 创建文件夹，再创建文件，最后删除，从未如此顺滑
-
-<div align="left">
-<img src="https://media.giphy.com/media/UtuHqIFKl4PQoukBer/source.gif" width="600" height="400" alt="文件操作"/>
-</div>
-
-> 先暂时忽略这吓人的背景，因为我还没找到合适的高清背景图:sob:
 
 当然这些只是一些入门级操作，Ranger提供的自定义快捷键使得它能够和vim一样实现许多不可思议的操作，我根据[盼欲](http://www.huangpan.net/posts/ji-ke/2019-08-21-ranger.html)的博客（这是我见过的对Ranger配置总结最好的一个）魔改了自己的配置，现已放在github上。
 
@@ -98,7 +83,7 @@ git clone https://github.com/theniceboy/.config/tree/master/ranger ~/.config/ran
 ok，我觉得这些快捷键已经可以满足日常生活了，操作速度应该是要比鼠标快的，当然要是配上[iTerm2](https://www.iterm2.com/)的话，那简直是飞一般的速度，你可以将iTerm2配置成连按两次```commend```键召唤出终端
 
 <div align="center">
-<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfiqsh19l8j31ff0u0wsb.jpg" width="600" height="400" alt="设置iTerm2"/>
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfiqsh19l8j31ff0u0wsb.jpg" width="100%" height="100%" alt="设置iTerm2"/>
 </div>
 
 这样就可以实现在终端进行一顿操作之后，再按两次```commend```键回到原来的工作空间，整个过程无痕衔接，太舒服了
@@ -113,6 +98,7 @@ alias r=ranger
 
 设置```r```快速启动Ranger，到这里，就可以尽情享受Ranger带来的便利了。
 
+当然，如果要真正发挥它的作用，建议配合vim使用，具体介绍可以移步
 
 好了，这一期的分享到这里就结束了，如果你有更快的操作欢迎留言讨论，互相促进:blush:
 

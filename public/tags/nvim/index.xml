@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nvim on Wecome to ALM Blog</title>
+    <link>https://appleloveme.github.io/tags/nvim/</link>
+    <description>Recent content in nvim on Wecome to ALM Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cmn-Hans</language>
+    <lastBuildDate>Sun, 07 Jun 2020 10:22:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://appleloveme.github.io/tags/nvim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Neovim:吾与mouse孰美</title>
+      <link>https://appleloveme.github.io/posts/neovim%E5%90%BE%E4%B8%8Emouse%E5%AD%B0%E7%BE%8E/</link>
+      <pubDate>Sun, 07 Jun 2020 10:22:00 +0800</pubDate>
+      
+      <guid>https://appleloveme.github.io/posts/neovim%E5%90%BE%E4%B8%8Emouse%E5%AD%B0%E7%BE%8E/</guid>
+      <description>&lt;p&gt;为什么我会选择Neovim（nvim）&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

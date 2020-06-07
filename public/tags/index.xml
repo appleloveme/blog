@@ -6,42 +6,33 @@
     <description>Recent content in Tags on Wecome to ALM Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cmn-Hans</language>
-    <lastBuildDate>Sun, 07 Jun 2020 07:55:01 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2020 10:22:00 +0800</lastBuildDate>
     
 	<atom:link href="https://appleloveme.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>tag1</title>
-      <link>https://appleloveme.github.io/tags/tag1/</link>
-      <pubDate>Sun, 07 Jun 2020 07:55:01 +0800</pubDate>
-      
-      <guid>https://appleloveme.github.io/tags/tag1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tag2</title>
-      <link>https://appleloveme.github.io/tags/tag2/</link>
-      <pubDate>Sun, 07 Jun 2020 07:55:01 +0800</pubDate>
-      
-      <guid>https://appleloveme.github.io/tags/tag2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>iterm2</title>
+      <title>iTerm2</title>
       <link>https://appleloveme.github.io/tags/iterm2/</link>
-      <pubDate>Sat, 06 Jun 2020 17:04:05 +0800</pubDate>
+      <pubDate>Sun, 07 Jun 2020 10:22:00 +0800</pubDate>
       
       <guid>https://appleloveme.github.io/tags/iterm2/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>nvim</title>
+      <link>https://appleloveme.github.io/tags/nvim/</link>
+      <pubDate>Sun, 07 Jun 2020 10:22:00 +0800</pubDate>
+      
+      <guid>https://appleloveme.github.io/tags/nvim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ranger</title>
       <link>https://appleloveme.github.io/tags/ranger/</link>
-      <pubDate>Sat, 06 Jun 2020 17:04:05 +0800</pubDate>
+      <pubDate>Sun, 07 Jun 2020 10:22:00 +0800</pubDate>
       
       <guid>https://appleloveme.github.io/tags/ranger/</guid>
       <description></description>
