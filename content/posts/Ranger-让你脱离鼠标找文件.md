@@ -80,13 +80,13 @@ git clone https://github.com/theniceboy/.config/tree/master/ranger ~/.config/ran
 | 操作当前目录的父级目录向上移动 | [                     |
 | 操作当前目录的父级目录向下移动 | ]                     |
 
-ok，我觉得这些快捷键已经可以满足日常生活了，操作速度应该是要比鼠标快的，当然要是配上[iTerm2](https://www.iterm2.com/)的话，那简直是飞一般的速度，你可以将iTerm2配置成连按两次```commend```键召唤出终端
+ok，我觉得这些快捷键已经可以满足日常生活了，操作速度应该是要比鼠标快的，当然要是配上[iTerm2](https://www.iterm2.com/)的话，那简直是飞一般的速度，你可以将iTerm2配置成连按两次```command```键召唤出终端
 
 <div align="center">
 <img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfiqsh19l8j31ff0u0wsb.jpg" width="100%" height="100%" alt="设置iTerm2"/>
 </div>
 
-这样就可以实现在终端进行一顿操作之后，再按两次```commend```键回到原来的工作空间，整个过程无痕衔接，太舒服了
+这样就可以实现在终端进行一顿操作之后，再按两次```command```键回到原来的工作空间，整个过程无痕衔接，太舒服了
 
 ## 还可以更快吗？
 
@@ -98,7 +98,7 @@ alias r=ranger
 
 设置```r```快速启动Ranger，到这里，就可以尽情享受Ranger带来的便利了。
 
-当然，如果要真正发挥它的作用，建议配合vim使用，具体介绍可以移步
+当然，如果要真正发挥它的作用，建议配合vim使用，具体介绍可以移步[《Neovim:吾与mouse孰美》](https://appleloveme.github.io/posts/neovim%E5%90%BE%E4%B8%8Emouse%E5%AD%B0%E7%BE%8E/)
 
 好了，这一期的分享到这里就结束了，如果你有更快的操作欢迎留言讨论，互相促进:blush:
 
