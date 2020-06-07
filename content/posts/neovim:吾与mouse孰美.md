@@ -13,7 +13,7 @@ tags: ["nvim", "ranger", "iTerm2"]
 <!--more-->
 
 <div align="center">
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=530 height=86 src="//music.163.com/outchain/player?type=2&id=1449678180&auto=0&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height=86 src="//music.163.com/outchain/player?type=2&id=1449678180&auto=0&height=66"></iframe>
 </div>
 
 > 前边介绍的Ranger是为了作为一道开胃菜，只有Ranger是无法发挥它的真正作用的，这篇文章将会介绍Ranger的小伙伴nvim。
