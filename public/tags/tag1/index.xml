@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Wecome to ALM Blog</title>
-    <link>https://appleloveme.github.io/posts/</link>
-    <description>Recent content in Posts on Wecome to ALM Blog</description>
+    <title>tag1 on Wecome to ALM Blog</title>
+    <link>https://appleloveme.github.io/tags/tag1/</link>
+    <description>Recent content in tag1 on Wecome to ALM Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cmn-Hans</language>
     <lastBuildDate>Sun, 07 Jun 2020 07:55:01 +0800</lastBuildDate>
     
-	<atom:link href="https://appleloveme.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://appleloveme.github.io/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -27,15 +27,6 @@
 &lt;div align=&#34;center&#34;&gt;
 &lt;iframe width=&#34;700&#34; height=&#34;600&#34; src=&#34;//player.bilibili.com/player.html?aid=710899539&amp;bvid=BV1aQ4y1P7S1&amp;cid=198820646&amp;page=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
 &lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Ranger 让你脱离鼠标找文件</title>
-      <link>https://appleloveme.github.io/posts/ranger-%E8%AE%A9%E4%BD%A0%E8%84%B1%E7%A6%BB%E9%BC%A0%E6%A0%87%E6%89%BE%E6%96%87%E4%BB%B6/</link>
-      <pubDate>Sat, 06 Jun 2020 17:04:05 +0800</pubDate>
-      
-      <guid>https://appleloveme.github.io/posts/ranger-%E8%AE%A9%E4%BD%A0%E8%84%B1%E7%A6%BB%E9%BC%A0%E6%A0%87%E6%89%BE%E6%96%87%E4%BB%B6/</guid>
-      <description>&lt;p&gt;我是怎么被终端操作圈粉的&lt;/p&gt;</description>
     </item>
     
   </channel>

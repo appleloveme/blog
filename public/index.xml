@@ -6,10 +6,28 @@
     <description>Recent content on Wecome to ALM Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cmn-Hans</language>
-    <lastBuildDate>Sat, 06 Jun 2020 20:00:57 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2020 07:55:01 +0800</lastBuildDate>
     
 	<atom:link href="https://appleloveme.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>我是如何写博客的</title>
+      <link>https://appleloveme.github.io/posts/%E6%88%91%E6%98%AF%E5%A6%82%E4%BD%95%E5%86%99%E5%8D%9A%E5%AE%A2%E7%9A%84/</link>
+      <pubDate>Sun, 07 Jun 2020 07:55:01 +0800</pubDate>
+      
+      <guid>https://appleloveme.github.io/posts/%E6%88%91%E6%98%AF%E5%A6%82%E4%BD%95%E5%86%99%E5%8D%9A%E5%AE%A2%E7%9A%84/</guid>
+      <description>&lt;h2 id=&#34;开始&#34;&gt;开始&lt;/h2&gt;
+&lt;p&gt;这篇将介绍我是如何开始写我的博客的&lt;/p&gt;
+&lt;h2 id=&#34;如何插入图片&#34;&gt;如何插入图片&lt;/h2&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;img src=&#34;https://tva1.sinaimg.cn/large/007S8ZIlly1gfitxqxh28j30rs0ku3zn.jpg&#34; width=&#34;600&#34; height=&#34;400&#34; alt=&#34;图片演示&#34;/&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;如何插入视频&#34;&gt;如何插入视频&lt;/h2&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;iframe width=&#34;700&#34; height=&#34;600&#34; src=&#34;//player.bilibili.com/player.html?aid=710899539&amp;bvid=BV1aQ4y1P7S1&amp;cid=198820646&amp;page=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;/div&gt;</description>
+    </item>
     
     <item>
       <title>我的github</title>

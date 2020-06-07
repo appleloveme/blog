@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Wecome to ALM Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cmn-Hans</language>
-    <lastBuildDate>Sat, 06 Jun 2020 17:04:05 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2020 07:55:01 +0800</lastBuildDate>
     
 	<atom:link href="https://appleloveme.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>category1</title>
+      <link>https://appleloveme.github.io/categories/category1/</link>
+      <pubDate>Sun, 07 Jun 2020 07:55:01 +0800</pubDate>
+      
+      <guid>https://appleloveme.github.io/categories/category1/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Drop your mouse</title>
