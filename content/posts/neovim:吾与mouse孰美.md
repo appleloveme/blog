@@ -90,8 +90,8 @@ git clone https://github.com/appleloveme/nvim ~/.config/nvim
 | ;fn               | 打开浮动终端                                         | normal         |
 | ;fh               | 隐藏浮动终端                                         | normal         |
 | ;fk               | 关闭浮动终端                                         | normal         |
-| [l                | 跳到行首                                             | normal         |
-| ]l                | 跳到行尾                                             | normal         |
+| lk                | 跳到行首                                             | normal         |
+| l;                | 跳到行尾                                             | normal         |
 | ;cc               | 注释所在行                                           | normal         |
 | ;cu               | 取消注释                                             | normal         |
 | h                 | 在光标后边的字符插入                                 | normal         |
